@@ -3,7 +3,7 @@ var searchJourneyRegex = new RegExp("[?&]searchJourney(=([^&#]*)|&|#|$)");
 var tripTypeRegex = new RegExp("[?&]tripType(=([^&#]*)|&|#|$)");
 
 if(localStorage["pushto"] == undefined){
-  localStorage["pushto"] = "";
+  localStorage["pushto"] = "";//your service url where the data push to
 }
 if(localStorage["host"] == undefined){
   localStorage["host"] = "sijipiao.alitrip.com";
